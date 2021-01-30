@@ -1,0 +1,31 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  Reading Qt configuration (C:/Qt/Qt5.9.3/5.9.3/msvc2017_64/bin/qmake)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  uic XPaly.ui
+  rcc XPaly.qrc
+  moc XPaly.h
+  moc XSlider.h
+  moc XVideoWidget.h
+   RCC: Warning: No resources in 'D:\02C++\08FFMPEG\src\05XPaly\XPaly.qrc'.
+  XAudioPlay.cpp
+  XAudioThread.cpp
+  XDecodeThread.cpp
+  XDemuxThread.cpp
+  XResample.cpp
+  XSlider.cpp
+  XVideoThread.cpp
+  XVideoWidget.cpp
+  XDecode.cpp
+  XDemux.cpp
+  XPaly.cpp
+  main.cpp
+d:\02c++\08ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 XDecode.cpp)
+d:\02c++\08ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 XResample.cpp)
+d:\02c++\08ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 XDemux.cpp)
+d:\02c++\08ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 XDemuxThread.cpp)
+d:\02c++\08ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 XVideoWidget.cpp)
+  qrc_XPaly.cpp
+  moc_XPaly.cpp
+  moc_XSlider.cpp
+  moc_XVideoWidget.cpp
+  05XPaly.vcxproj -> D:\02C++\08FFMPEG\src\05XPaly\..\..\bin\win64\05XPaly.exe
