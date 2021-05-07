@@ -10,7 +10,7 @@
 2. FFMPEG中基于音视频解封装，音频重采样，视频像素格式转换和尺寸变换。
 3. 用的是QT中的opengl shader 绘制yuv数据。
 4. 原来是基于QImage的图像尺寸转换策略（基于CPU效率低下），替换为高性能opengl材质实现（基于GPU）
-5. 原来使用的sws_scale的yuv转换RGB(基于CPU效率低下)，替换为使用opengl  SHader（基于GPU使用glsl）
+5. 原来使用的sws_scale的yuv转换RGB(基于CPU效率低下)，替换为使用opengl  Shader（基于GPU使用glsl,显卡的编程语言）
 6. 实现了全屏播放。
 7. seek找不到关键帧会跳到最开始修改代码，（h264只能跳转到关键帧），需要向后找到关键帧，显示。
 8. 修改视频中的尺寸造成花屏问题，是行对齐原因造成的，需要通过行复制解决。
